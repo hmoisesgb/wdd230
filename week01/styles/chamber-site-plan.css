@@ -1,4 +1,27 @@
+h1{
+    background-color: #004080;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
 body{
     font-family: 'Rubik', sans-serif;
     font-weight: 300;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4em;
+    font-size: 18px;
+    text-align: center;
+}
+section{
+    border: 1px solid #004080;
+    border-radius: 8px;
+    margin: 16px;
+    background-color: #FFD700;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+#wireframes h3{
+    margin-bottom: 1em;
+    border-radius: 1em;
 }
