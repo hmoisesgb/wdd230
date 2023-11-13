@@ -19,11 +19,13 @@
     <link rel="icon" href="favicon.ico">
 </head>
 <body>
+    <div id="mode">🕶️</div>
     <header>
         <img src="images/me.jpg" alt="author picture">
         <h1>Haroldo Moises Gonzalez Benavente</h1>
     </header>
     <nav>
+        <button id="menu"></button>
         <ul>
             <li class="active"><a href="#">Home</a></li>
             <li><a href="#">Chamber</a></li>
@@ -44,7 +46,7 @@
                 <li>Week 06: <a href=""></a></li>
             </ul>
         </section>
-        <section class="card">
+        <section class="card" id="section2">
             <h3>Information</h3>
             <p>Location</p>
             <p>Weather</p>
@@ -56,5 +58,7 @@
         <p id="lastModified"></p>
     </footer>
     <script src="scripts/getDates.js"></script>
+    <script src="scripts/darkMode.js"></script>
+    <script src="scripts/hamburgerMenu.js"></script>
 </body>
 </html>
