@@ -54,7 +54,6 @@ footer{
     background-color: #2869a7;
     color: #fff;
     text-align: center;
-    text-align: center;
     align-items: center;
     justify-content: center;
     padding: 0.65rem;
@@ -89,6 +88,8 @@ footer #lastModified{
     margin-left: 10px;
   }
 .card p {
+    text-align: center;
+    font-weight: bolder;
     margin-bottom: 8px;
     margin-left: 10px;
   }
@@ -137,4 +138,41 @@ nav li{
     background-color: #000;
     color: #fff;
     border-color: #eee;
+}
+
+.hero{
+    position: relative;
+}
+
+.hero img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.heroLabel {
+	position: absolute;
+	top: 30px;
+	left: 30px;
+	background: radial-gradient(#fff, #4D5B97);
+	border: 1px solid rgba(0,0,0,.75);
+	padding: 1.5rem;
+	box-shadow: 0 0 3rem #fff;
+	opacity: 0.75;
+}
+
+.heroLabel p {
+	margin: 0;
+	padding: .25rem;
+	font-weight: 700;
+	font-size: 1.4rem;
+}
+
+main{
+    margin: 0.35rem;
+}
+
+main iframe{
+    width: 100%;
+    padding: 15px;
 }
