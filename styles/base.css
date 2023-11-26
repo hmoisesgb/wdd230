@@ -8,6 +8,15 @@ body{
     font-family: 'Rubik', sans-serif;
     font-weight: 300;
 }
+.card a:link{
+    color:#0000b9;
+}
+.card a:visited{
+    color: #0000b9;
+}
+.card a:hover{
+    color: purple;
+}
 
 header{
     background-color: #2869a7;

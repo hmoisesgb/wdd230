@@ -9,4 +9,5 @@ modeButton.addEventListener("click", () => {
 	main.classList.toggle('dark-mode');
     section.classList.toggle('dark-mode');
     section2.classList.toggle('dark-mode');
+    document.getElementById("heroLabel").style.color = "black";
 });
