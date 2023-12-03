@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haroldo Moises Gonzalez Benavente - WDD 230 - Guatemala City Chamber of Commerce</title>
+    <meta name="description" content="WDD 230 - Web Frontend Development, Haroldo Moises Gonzalez Benavente, Guatemala City Chamber of Commerce">
+    <meta name="author" content="Haroldo Moises Gonzalez Benavente">
+    <meta property="og:title" content="Haroldo Moises Gonzalez Benavente - WDD 230 - Guatemala City Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://hmoisesgb.github.io/wdd230/chamber/index.html">
+    <meta property="og:image" content="https://www.dominicanabroad.com/wp-content/uploads/2023/04/walking-tour-guatemala-city-4.jpg">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;500&display=swap">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <header>
+        <img src="images/logo.webp" alt="logo" loading="lazy">
+        <h1>Guatemala City Chamber of Commerce</h1>
+        <button id="menu"></button>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="active"><a href="#">Discover</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a href="#">Join</a></li>
+        </ul>
+    </nav>
+    <main class="discoverMain">
+        <div class="card2" id="nextEvents">
+            <h3>Next Events</h3>
+            <p>Christmas</p>
+            <p>New Year's Eve</p>
+        </div>
+        <div class="card2" id="demographics">
+            <h3>Demographics</h3>
+            <p>Population: 17,703,190</p>
+            <p>Growth rate: 1.58%</p>
+            <p>Birth rate: 22.34 births/1,000 population</p>
+        </div>
+        <div class="card2" id="places">
+            <h3>Places of Interest</h3>
+            <p>Catedral Metropolitana</p>
+            <p>Ciudad Cayala</p>
+            <p>IRTRA Petapa</p>
+            <p>Museo Miraflores</p>
+            <p>Palacio Nacional</p>
+            <p>La Aurora Zoo</p>
+        </div>
+        <div class="card2" id="aboutUs">
+            <h3>About The City</h3>
+            <p>Guatemala City was the scene of the declaration of independence of Central America from Spain. Currently this is the biggest city of Guatemala, a place where you can be witness history and progression.</p>
+        </div>
+        <div class="card2" id="imageGallery">
+            <h3>Image Gallery</h3>
+            <figure>
+                <img src="images/catedral.webp" alt="Catedral de Guatemala" loading="lazy" height="247" width="400">
+                <figcaption>Catedral Metropolitana</figcaption>
+            </figure>
+            <figure>
+                <img src="images/cayala.webp" alt="Ciudad Cayala" loading="lazy" height="239" width="400">
+                <figcaption>Ciudad Cayala</figcaption>
+            </figure>
+            <figure>
+                <img src="images/irtra.webp" alt="Irtra Petapa" loading="lazy" height="225" width="400">
+                <figcaption>Irtra Petapa</figcaption>
+            </figure>
+            <figure>
+                <img src="images/museo-miraflores.webp" alt="Museo Miraflores" loading="lazy" height="286" width="400">
+                <figcaption>Museo Miraflores</figcaption>
+            </figure>
+            <figure>
+                <img src="images/palacio-nacional.webp" alt="Palacio Nacional" loading="lazy" height="267" width="400">
+                <figcaption>Palacio Nacional</figcaption>
+            </figure>
+            <figure>
+                <img src="images/zoologico-la-aurora.webp" alt="Zoo" loading="lazy" height="300" width="400">
+                <figcaption>Zoologico la Aurora</figcaption>
+            </figure>
+        </div>
+        <div class="card2" id="visits">
+            <h3>Visit Information</h3>
+            <p id="visitInfo"></p>
+        </div>
+    </main>
+    <footer>
+        <div id="generalInformation">
+            <img src="images/logo.webp" alt="Logo Image" loading="lazy">
+            <h3>Guatemala City Chamber of Commerce</h3>
+            <p>Zona 16, Ciudad de Guatemala</p>
+        </div>
+        <div id="contactInformation">
+            <p>info@guatemalacitycoc.example.com</p>
+            <p>+502 1234 5678</p>
+            <p>Location Map</p>
+        </div>
+        <div id="projectInformation">
+            <p>&copy; <span id="currentYear"></span> Guatemala City Chamber of Commerce</p>
+            <p>Haroldo Moises Gonzalez Benavente</p>
+            <p>WDD 230 Project</p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/hamburgerMenu.js"></script>
+    <script src="scripts/lastVisit.js"></script>
+</body>
+</html>

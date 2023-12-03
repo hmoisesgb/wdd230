@@ -182,3 +182,47 @@ footer h3
     border-top: 2px solid gray;
     text-align: center;
 }
+
+/* Discover Page CSS */
+
+.discoverMain{
+    display: block;
+}
+
+.card2 {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 16px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+.card2 h3 {
+    margin-top: 0;
+    background-color: #2869a7;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 10px;
+  }
+
+.card2 p {
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 8px;
+    margin-left: 10px;
+  }
+
+#visits{
+    border: 1.4px solid #ccc;
+}
+
+#imageGallery{
+    text-align: center;
+}
+
+#imageGallery img{
+    width: 75%;
+    height: auto;
+    object-fit: cover;
+}
