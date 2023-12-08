@@ -1,0 +1,62 @@
+:root{
+    --primaryColor: #2869a7;
+    --secondaryColor: #077f94;
+    --accent: #004080;
+}
+
+main{
+    display: block;
+    padding: .5rem;
+}
+
+form fieldset{
+    margin: 2rem 0;
+    border: 1px solid var(--primaryColor);
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+
+form legend{
+    color: var(--accent);
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form label{
+    display: block;
+    padding: .75rem 0;
+    font-weight: bolder;
+}
+
+form input {
+    display: block;
+    width: 100%;
+    padding: .5rem;
+    max-width: 20rem;
+}
+
+#rangeValue{
+    margin-bottom: -.4rem;
+    font-size: 1.7rem;
+    color: var(--primaryColor);
+}
+
+.submitBtn{
+    border: none;
+    background-color: var(--secondaryColor);
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    width: 96%;
+    max-width: 20rem;
+}
+
+.submitBtn:hover{
+    background-color: rgba(7, 127, 148, 0.8);
+}
+
+#message{
+    visibility: none;
+    font-weight: 400;
+    color: red;
+}

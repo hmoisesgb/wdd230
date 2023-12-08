@@ -185,3 +185,8 @@ main iframe{
     width: 100%;
     padding: 15px;
 }
+
+/* Record Main */
+.record{
+    display: block;
+}
