@@ -43,8 +43,8 @@
                 <label>Password*<input type="password" name="pass" id="password" required pattern="[a-zA-Z0-9]{8,}" title="The password must be at least 8 characters long and can only be alpha-numeric"></label>
                 <label>Confirm Password*<input type="password" name="passCon" id="passwordConfirmation" required></label>
                 <label>Email*<input type="email" name="email" id="emailField" required pattern="[a-zA-Z0-9]+@byui\.edu" title="Please enter a valid email address with the domain @byui.edu"></label>
-                <label>Page Rating*
-                    <div id="rangeValue">0</div>
+                <label>Page Rating*</label>
+                <div id="rangeValue">0</div>
                     <input type="range" name="rating" id="pageRating" min="0" max="10" value="0" step="1" list="rangeValues">
                     <datalist id="rangeValues">
                         <option value="0">0</option>
@@ -59,7 +59,6 @@
                         <option value="9">9</option>
                         <option value="10">10</option>
                     </datalist>
-                </label>
             </fieldset>
             <input type="submit" value="Send page rating" class="submitBtn">
         </form>

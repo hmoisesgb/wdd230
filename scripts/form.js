@@ -19,13 +19,13 @@ confirmation.addEventListener("focusout", checkPassword);
 function checkPassword() {
     if (password.value !== confirmation.value) {
         message.textContent = "❗Passwords DO NOT MATCH!"
-        message.style.visibility = "show";
+        message.style.visibility = "visible";
         confirmation.style.backgroundColor = "#fff0f3";
         password.value = "";
         confirmation.value = "";
         password.focus();
     } else {
         confirmation.style.backgroundColor = "#fff";
-        message.style.display = "none";
+        message.style.visibility = "hidden";
     }
 }
