@@ -226,3 +226,99 @@ footer h3
     height: auto;
     object-fit: cover;
 }
+
+/* Join Page CSS */
+
+.form{
+    margin: .5rem .25rem;
+}
+
+.form .information label{
+    display: block;
+    padding: .75rem 0;
+    font-weight: bolder;
+}
+
+.form .information input {
+    display: block;
+    width: 100%;
+    padding: .5rem;
+    max-width: 20rem;
+}
+
+.form .selection label {
+    display: block;
+}
+
+.form .selection input {
+    display: inline-block;
+}
+
+.form textarea {
+    display: block;
+    width: 100%;
+    padding: .5rem;
+    max-width: 20rem;
+}
+
+.form #submitBtn {
+    padding: 0.75rem;
+    margin: 0.2rem 0;
+    background-color: #2869a7;
+    color: #f0f0f0;
+    border-color: #004080;
+}
+
+.formContainer,.membership {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 16px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+.formContainer,.membership h3 {
+    margin-top: 0;
+    background-color: #2869a7;
+    color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+.membership{
+    display: block;
+    background-color: #2869a7;
+    padding: 1rem;
+}
+.membership h2{
+    color: #fff;
+}
+.formContainer fieldset h3{
+    border-radius: 8px;
+    border-color: #FFD700;
+}
+
+.formContainer{
+    margin-top: 1rem;
+}
+.membership .benefits {
+    background-color: white;
+    border: 1px solid #FFD700;
+    margin-top: 0.3rem;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.membership .benefits p{
+    padding: .2rem;
+    font-weight: 400;
+}
+
+/* Thank you page CSS */
+.thankyou {
+    padding: 2rem;
+    max-width: 600px;
+    margin: 1rem auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haroldo Moises Gonzalez Benavente - WDD 230 - Guatemala City Chamber of Commerce</title>
+    <meta name="description" content="WDD 230 - Web Frontend Development, Haroldo Moises Gonzalez Benavente, Guatemala City Chamber of Commerce, Join Page">
+    <meta name="author" content="Haroldo Moises Gonzalez Benavente">
+    <meta property="og:title" content="Haroldo Moises Gonzalez Benavente - WDD 230 - Guatemala City Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://hmoisesgb.github.io/wdd230/chamber/join.html">
+    <meta property="og:image" content="https://www.dominicanabroad.com/wp-content/uploads/2023/04/walking-tour-guatemala-city-4.jpg">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;500&display=swap">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <header>
+        <img src="images/logo.webp" alt="logo" loading="lazy">
+        <h1>Guatemala City Chamber of Commerce</h1>
+        <button id="menu"></button>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="#">Directory</a></li>
+            <li class="active"><a href="#">Join</a></li>
+        </ul>
+    </nav>
+    <main class="joinMain">
+        <div class="formContainer">
+            <h2>Chamber Application</h2>
+            <form method="get" action="thankyou.html" class="form">
+                <fieldset class="information">
+                    <legend><h3>User Information</h3></legend>
+                    <label>First Name*<input type="text" name="fName" id="firstName" required></label>
+                    <label>Last Name*<input type="text" name="lName" id="lastName" required></label>
+                    <label>Title or Position<input type="text" name="aTitle" id="applicantTitle" pattern="[A-Za-z\-\s]{7,}"></label>
+                    <label>Email Address*<input type="email" name="email" id="email" placeholder="someone@example.com" required></label>
+                    <label>Phone Number*<input type="tel" name="phone" id="phoneNumber" required></label>
+                </fieldset>
+                <fieldset class="selection">
+                    <legend><h3>Membership</h3></legend>
+                    <div><h5>Membership Level</h5></div>
+                    <label><input type="radio" name="level" id="NP"> NP Membership</label>
+                    <label><input type="radio" name="level" id="bronze"> Bronze Membership</label>
+                    <label><input type="radio" name="level" id="silver"> Silver Membership</label>
+                    <label><input type="radio" name="level" id="gold"> Gold Membership</label>
+                </fieldset>
+                <fieldset class="information">
+                    <legend><h3>Business</h3></legend>
+                    <label>Business/Organization Name*<input type="text" name="bName" id="businessName" required></label>
+                    <label>Business/Organization Description <textarea name="bDescription" id="businessDescription"></textarea></label>
+                </fieldset>
+                <input type="hidden" name="timestamp" id="timestamp">
+                <input type="submit" value="Join the Chamber" id="submitBtn">
+            </form>
+        </div>
+        <div class="membership">
+            <h2>Membership Levels</h2>
+            <div class="benefits">
+                <h3>NP Membership</h3>
+                <p>- Help from the Chamber of Commerce members</p>
+                <p>- Access to weekly events with information from the community</p>
+            </div>
+            <div class="benefits">
+                <h3>Bronze Membership</h3>
+                <p>- All benefits from the NP Membership</p>
+                <p>- Invitation to a special breakfast every month</p>
+                <p>- Access to special events from the Chamber</p>
+            </div>
+            <div class="benefits">
+                <h3>Silver Membership</h3>
+                <p>- All benefits from the Bronze Membership</p>
+                <p>- Training courses with the Chamber Experts</p>
+                <p>- Discount on the entrance for special events from the Chamber</p>
+            </div>
+            <div class="benefits">
+                <h3>Gold Membership</h3>
+                <p>- All benefits from the Gold Membership</p>
+                <p>- Spotlight positions on the home page</p>
+                <p>- Opportunity to present events or projects to all the Chamber members</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div id="generalInformation">
+            <img src="images/logo.webp" alt="Logo Image" loading="lazy">
+            <h3>Guatemala City Chamber of Commerce</h3>
+            <p>Zona 16, Ciudad de Guatemala</p>
+        </div>
+        <div id="contactInformation">
+            <p>info@guatemalacitycoc.example.com</p>
+            <p>+502 1234 5678</p>
+            <p>Location Map</p>
+        </div>
+        <div id="projectInformation">
+            <p>&copy; <span id="currentYear"></span> Guatemala City Chamber of Commerce</p>
+            <p>Haroldo Moises Gonzalez Benavente</p>
+            <p>WDD 230 Project</p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/hamburgerMenu.js"></script>
+    <script src="scripts/timestamp.js"></script>
+</body>
+</html>

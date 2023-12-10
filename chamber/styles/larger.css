@@ -161,5 +161,16 @@
     .discoverMain img:hover {
         box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3);
     }
-
+    /* Join Page CSS */
+    .joinMain{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 3rem;
+    }
+    .form{
+        grid-column: 1/2;
+    }
+    .membership{
+        grid-column: 2/3;
+    }
 } 
