@@ -5,7 +5,7 @@
           "address": "555 Quantum Street, Innovation Hub",
           "phone": "(555) 789-0123",
           "website": "http://www.quantuminnovations.co",
-          "image_icon": "quantuminnovations_logo.png",
+          "image_icon": "https://hmoisesgb.github.io/wdd230/chamber/images/quantuminnovations_logo.webp",
           "membership_level": "Silver",
           "motto": "Innovating the Future of Technology"
         },
@@ -14,7 +14,7 @@
           "address": "666 Robotics Avenue, Tech Town",
           "phone": "(555) 012-3456",
           "website": "http://www.robosolutionsinc.com",
-          "image_icon": "robosolutions_logo.png",
+          "image_icon": "https://hmoisesgb.github.io/wdd230/chamber/images/robosolutions_logo.webp",
           "membership_level": "Gold",
           "motto": "Bringing Automation to New Heights"
         },
@@ -23,7 +23,7 @@
           "address": "777 Galactic Drive, Space City",
           "phone": "(555) 234-5678",
           "website": "http://www.spacefrontiertechnologies.net",
-          "image_icon": "spacefrontier_logo.png",
+          "image_icon": "https://hmoisesgb.github.io/wdd230/chamber/images/spacefrontier_logo.webp",
           "membership_level": "NP",
           "motto": "Exploring the Boundaries of Space Technology"
         },
@@ -32,7 +32,7 @@
           "address": "888 Waterfront Street, Aqua City",
           "phone": "(555) 345-6789",
           "website": "http://www.aquatechinnovations.org",
-          "image_icon": "aquatechinnovations_logo.png",
+          "image_icon": "https://hmoisesgb.github.io/wdd230/chamber/images/aquatechinnovations_logo.webp",
           "membership_level": "Bronze",
           "motto": "Sustainable Solutions for a Blue Planet"
         },
@@ -41,7 +41,7 @@
           "address": "999 Renewable Avenue, Green City",
           "phone": "(555) 456-7890",
           "website": "http://www.futureenergysolutions.com",
-          "image_icon": "futureenergy_logo.png",
+          "image_icon": "https://hmoisesgb.github.io/wdd230/chamber/images/futureenergy_logo.webp",
           "membership_level": "NP",
           "motto": "Powering Tomorrow with Clean Energy"
         },
@@ -50,7 +50,7 @@
           "address": "111 Nanotechnology Lane, Nano City",
           "phone": "(555) 567-8901",
           "website": "http://www.nanotechdynamicscorp.biz",
-          "image_icon": "nanotechdynamics_logo.png",
+          "image_icon": "https://hmoisesgb.github.io/wdd230/chamber/images/nanotechdynamics_logo.webp",
           "membership_level": "Silver",
           "motto": "Small Tech, Big Impact"
         },
@@ -59,7 +59,7 @@
           "address": "222 Skyway Street, Aviation City",
           "phone": "(555) 678-9012",
           "website": "http://www.skyhighaviationsolutions.org",
-          "image_icon": "skyhighaviation_logo.png",
+          "image_icon": "https://hmoisesgb.github.io/wdd230/chamber/images/skyhighaviation_logo.webp",
           "membership_level": "Gold",
           "motto": "Soaring Above the Rest in Aviation"
         }
