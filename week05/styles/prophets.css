@@ -1,0 +1,36 @@
+h1{
+    color: rgba(112, 13, 158, 0.808);
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: .45rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    padding: .45rem;
+    background-color: gainsboro;
+    
+    
+}
+
+#cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+#cards section{
+    padding: 0.2rem;
+    margin: 0.25rem;
+    background-color: #c9c9fa;
+    border: 1px solid #bbb;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+footer{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    border-top: 1px solid black;
+    font-weight: bold;
+}

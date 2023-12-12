@@ -186,6 +186,22 @@ main iframe{
     padding: 15px;
 }
 
+#section2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#section2 h3{
+    width: 100%;
+}
+
+#weather {
+    display: flex;
+    align-items: center;
+}
+
 /* Record Main */
 .record{
     display: block;

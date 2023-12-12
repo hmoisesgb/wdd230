@@ -1,0 +1,18 @@
+{
+    "familyName":"Perez",
+    "moveDate": "12/11/2023",
+    "numberOfPeople":2,
+    "visited":true,
+    "members":[
+        {
+            "name": "Juan",
+            "gender":"male",
+            "Birthdate":"01/5/1987"
+        },
+        {
+            "name": "Juana",
+            "gender":"female",
+            "Birthdate":"01/5/1989"
+        }
+    ]
+}
