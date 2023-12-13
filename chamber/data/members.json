@@ -3,65 +3,72 @@
         {
           "name": "Quantum Innovations Ltd.",
           "address": "555 Quantum Street, Innovation Hub",
-          "phone": "(555) 789-0123",
-          "website": "http://www.quantuminnovations.co",
+          "phone": "+512 1789-0123",
+          "website": "http://www.quantuminnovations.com",
           "image_icon": "https://hmoisesgb.github.io/wdd230/chamber/images/quantuminnovations_logo.webp",
           "membership_level": "Silver",
-          "motto": "Innovating the Future of Technology"
+          "motto": "Innovating the Future of Technology",
+          "icon_height": "42px"
         },
         {
           "name": "RoboSolutions Inc.",
           "address": "666 Robotics Avenue, Tech Town",
-          "phone": "(555) 012-3456",
+          "phone": "+512 1012-3456",
           "website": "http://www.robosolutionsinc.com",
           "image_icon": "https://hmoisesgb.github.io/wdd230/chamber/images/robosolutions_logo.webp",
           "membership_level": "Gold",
-          "motto": "Bringing Automation to New Heights"
+          "motto": "Bringing Automation to New Heights",
+          "icon_height": "109px"
         },
         {
           "name": "Space Frontier Technologies",
           "address": "777 Galactic Drive, Space City",
-          "phone": "(555) 234-5678",
+          "phone": "+512 1234-5678",
           "website": "http://www.spacefrontiertechnologies.net",
           "image_icon": "https://hmoisesgb.github.io/wdd230/chamber/images/spacefrontier_logo.webp",
           "membership_level": "NP",
-          "motto": "Exploring the Boundaries of Space Technology"
+          "motto": "Exploring the Boundaries of Space Technology",
+          "icon_height": "108px"
         },
         {
           "name": "AquaTech Innovations Ltd.",
           "address": "888 Waterfront Street, Aqua City",
-          "phone": "(555) 345-6789",
+          "phone": "+512 1345-6789",
           "website": "http://www.aquatechinnovations.org",
           "image_icon": "https://hmoisesgb.github.io/wdd230/chamber/images/aquatechinnovations_logo.webp",
           "membership_level": "Bronze",
-          "motto": "Sustainable Solutions for a Blue Planet"
+          "motto": "Sustainable Solutions for a Blue Planet",
+          "icon_height": "94px"
         },
         {
           "name": "Future Energy Solutions Inc.",
           "address": "999 Renewable Avenue, Green City",
-          "phone": "(555) 456-7890",
+          "phone": "+512 1456-7890",
           "website": "http://www.futureenergysolutions.com",
           "image_icon": "https://hmoisesgb.github.io/wdd230/chamber/images/futureenergy_logo.webp",
           "membership_level": "NP",
-          "motto": "Powering Tomorrow with Clean Energy"
+          "motto": "Powering Tomorrow with Clean Energy",
+          "icon_height":"100"
         },
         {
           "name": "NanoTech Dynamics Corporation",
           "address": "111 Nanotechnology Lane, Nano City",
-          "phone": "(555) 567-8901",
+          "phone": "+512 1567-8901",
           "website": "http://www.nanotechdynamicscorp.biz",
           "image_icon": "https://hmoisesgb.github.io/wdd230/chamber/images/nanotechdynamics_logo.webp",
           "membership_level": "Silver",
-          "motto": "Small Tech, Big Impact"
+          "motto": "Small Tech, Big Impact",
+          "icon_height":"89px"
         },
         {
           "name": "SkyHigh Aviation Solutions",
           "address": "222 Skyway Street, Aviation City",
-          "phone": "(555) 678-9012",
+          "phone": "+512 1678-9012",
           "website": "http://www.skyhighaviationsolutions.org",
           "image_icon": "https://hmoisesgb.github.io/wdd230/chamber/images/skyhighaviation_logo.webp",
           "membership_level": "Gold",
-          "motto": "Soaring Above the Rest in Aviation"
+          "motto": "Soaring Above the Rest in Aviation",
+          "icon_height":"104px"
         }
       ]      
 }

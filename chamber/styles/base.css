@@ -302,7 +302,7 @@ footer h3
 }
 .membership .benefits {
     background-color: white;
-    border: 1px solid #FFD700;
+    border: 1px solid white;
     margin-top: 0.3rem;
     margin-bottom: 15px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -321,4 +321,83 @@ footer h3
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Directory page CSS */
+.directoryMain{
+    padding: 1rem;
+}
+.directory{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.directoryMenu{
+    padding: 1rem;
+	text-align: center;
+    background-color: #2869a7;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom: 1px solid black;
+}
+
+.directoryMenu button{
+    padding: 1rem;
+	font-weight: 700;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 15px;
+    padding: 0.4rem;
+}
+
+.grid section {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.grid img {
+    width: auto;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+.grid a {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #2869a7;
+    text-decoration: none;
+    font-weight: bold;
+}
+.list {
+	display: flex;
+	flex-direction: column;
+}
+.list section > * {
+	margin: 0 1rem;
+    padding: 0.2rem;
+}
+
+.list section img {
+	display: none;
+}
+
+.list section h3 {
+	font-size: 1rem;
+}
+
+.list section:nth-child(even) {
+	background-color: #ddd;
 }
