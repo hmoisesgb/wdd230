@@ -174,4 +174,21 @@
         grid-column: 2/3;
     }
     /* Directory Page CSS */
+    .list section {
+        display: grid;
+        grid-template-columns: repeat(7, minmax(0, 1fr));
+        margin: 0;
+        padding: 0.25rem;
+        overflow: hidden;
+    }
+
+    .list a {
+        display: block;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        color: #2869a7;
+        text-decoration: none;
+        font-weight: bold;
+    }
 } 
