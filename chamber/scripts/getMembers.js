@@ -22,6 +22,7 @@ const displayMembers = (members) =>{
         logo.setAttribute('alt',`${member.name} Logo`);
         logo.setAttribute('loading','lazy');
         logo.setAttribute('width', '200px');
+        logo.setAttribute('height', member.icon_height);
 
         name.textContent = member.name;
         address.textContent = member.address;
